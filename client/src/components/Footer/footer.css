@@ -1,0 +1,18 @@
+footer {
+    background-color: rgb(20, 74, 167);
+    color: white;
+}
+
+.footer--container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer__item h5 {
+    padding: 20px 0 10px 0;
+}
+
+.footer__item h6 {
+    padding: 4px 0;
+}

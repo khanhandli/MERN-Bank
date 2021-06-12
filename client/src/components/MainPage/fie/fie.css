@@ -1,0 +1,72 @@
+.fie{
+    width: 960px;  
+    margin: 0 auto;  
+}
+.fie--title{ 
+    margin: 60px 0 ;
+    text-align: center;
+}
+
+.fie--title span{ 
+    display: inline-block;
+    padding: 12px 22px;
+    border: 2px dashed;
+    border-radius: 20px;
+    color: rgb(20, 74, 167);
+    font-weight: 500;
+}
+
+.fie--content1, .fie--content2 { 
+    box-shadow: 5px 5px 14px #888;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-height: 280px;
+}
+
+.fie--content2 {
+    height: 258px;
+}
+
+.fie--content1 h3,.fie--content2 h3 { 
+    color: rgb(20, 74, 167);
+    padding: 10px 20px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.fie--content1 ol{ 
+    padding-left: 40px;
+}
+
+.fie--content1 li{ 
+    padding: 18px 0;
+    color: #555;
+}
+
+.fie--content2 h3 {
+    margin-bottom: 18px;
+}
+
+.fie--content2__flex{
+    display: flex;
+}
+
+.fie--content2__left,.fie--content2__right{
+    flex: 1
+}
+.fie--content2__left span, .fie--content2__right span{ 
+    display: block;
+    color: #555;
+    padding: 18px 40px;
+}
+
+.fie--content2__left span:before,.fie--content2__right span:before {
+    content: "V";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}

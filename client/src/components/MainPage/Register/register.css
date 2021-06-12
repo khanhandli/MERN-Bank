@@ -1,0 +1,79 @@
+.register {
+    height: 100%;
+    width: 100%;
+    background-image: url('./5a8563a5-5f68-4470-b806-42ec62e2cac6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 680px;
+    max-width: 680px;
+    background-color: white;
+    z-index: 99;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+}
+form h4 {
+    font-size: 1.4rem;
+    color: rgb(20, 74, 167);
+    padding: 10px 0;
+}
+
+form p {
+    padding: 0 10px 30px 10px;
+}
+
+form input[type=text],input[type=password]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+}
+
+
+form input[type=submit]{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(20, 74, 167);
+    padding: 14px 0;
+    margin: 20px 0;
+    background-color: rgb(20, 74, 167);
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 25px;
+    border-radius: 6px;
+}
+
+form input[type=submit]:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.close {
+    position: absolute;
+    z-index: 100;
+    right:20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    top: 0;
+}
+.close a {
+    text-decoration: none;
+}

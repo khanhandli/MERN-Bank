@@ -1,0 +1,45 @@
+.price h2 {
+    color: rgb(20, 74, 167);
+    margin: 30px 0 20px 0;
+    border-bottom: 1px solid;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.price  {
+    text-align: center;
+}
+
+.price--img img {
+    height: 100%;
+    width: 100%;
+}
+
+.price--warning__img svg {
+    height: 47px;
+    width: 47px;
+}
+
+.price--warning {
+    display: flex;
+    padding: 6px 150px 20px 150px;
+}
+
+.price--policy h2 {
+    border: 1px dashed ;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.price--policy ul {
+    border: 1px solid rgb(20, 74, 167);
+    border-radius: 60px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+
+}
+
+.price--policy li {
+    list-style: none;
+    padding: 20px 40px 20px 40px;
+    text-align: left;
+}

@@ -1,0 +1,96 @@
+.benefit{ 
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    height: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.benefit--left{
+    flex: 1;
+}
+.benefit--left h1{  
+    font-size: 1.4rem;
+    color: rgb(20, 74, 167);
+    margin-bottom: 30px;
+}
+
+.benefit--left li{  
+    list-style: none;
+    padding: 10px 50px 0 30px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.benefit--left li::before{  
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.benefit--right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+ }
+.benefit--right__img{
+    
+}
+
+.benefit--right__img img{
+    height: 382px;
+    width: 572px;
+    border-radius: 40px;
+}
+
+.scroll-top {
+    font-weight: 700;
+    font-size: 1.6rem;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    padding: 2px 10px;
+    border-radius: 50%;
+    background-color: rgb(117, 126, 123);
+    color: white;
+    cursor: pointer;
+}
+
+.contenttt {
+    flex-direction: column;
+}
+
+.benefit h2 {
+    text-align: center;
+    color: rgb(20, 74, 167);
+}
+
+.footer--content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.content1 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.content1 h4 {
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+.content1 p {
+    text-align: left;
+}
+
+.content1 svg {
+    height: 50px;
+    width: 50px;
+}
